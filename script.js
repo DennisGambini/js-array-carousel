@@ -23,6 +23,9 @@ const lays = document.getElementsByClassName("layover");
 const prev = document.getElementById("icon-up");
 const next = document.getElementById("icon-down");
 
+h2[0].innerHTML = title[0];
+p[0].innerHTML = text[0].slice(0, 35) + "...";
+
 prev.addEventListener("click", backFunction);
 next.addEventListener("click", forwardFunction);
 
